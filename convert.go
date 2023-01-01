@@ -11,7 +11,7 @@ func Convert(cmd Command) (*cli.Command, error) {
 		return nil, err
 	}
 	tmp := cmd.GetCommand()
-	
+
 	c := &cli.Command{
 		Name:        tmp.Name,
 		Usage:       tmp.Usage,

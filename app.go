@@ -6,9 +6,9 @@ import (
 )
 
 type App struct {
-	Name string
-	Usage string
-	Version string
+	Name        string
+	Usage       string
+	Version     string
 	Description string
 
 	app *cli.App

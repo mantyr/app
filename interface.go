@@ -1,8 +1,8 @@
 package app
 
 import (
-	"github.com/urfave/cli/v2"
 	"github.com/mantyr/app/commands"
+	"github.com/urfave/cli/v2"
 )
 
 type Command interface {

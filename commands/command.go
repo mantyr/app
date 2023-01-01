@@ -6,10 +6,10 @@ import (
 
 // Command это объект описания команды для встраивания
 type Command struct {
-	Name string
-	Usage string
+	Name        string
+	Usage       string
 	Description string
-	Flags []cli.Flag
+	Flags       []cli.Flag
 
 	// EnableConfigFile включает --config флаг с адресом файла в формате YML
 	EnableConfigFile bool
