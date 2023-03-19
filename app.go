@@ -21,6 +21,10 @@ func New() *App {
 	}
 }
 
+func (a *App) CLI() *cli.App {
+	return a.app
+}
+
 func (a *App) Register(commands ...Command) {
 	for _, command := range commands {
 		cmd, err := Convert(command)
